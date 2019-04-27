@@ -1,0 +1,44 @@
+html {
+	background-color: #282828;
+}
+
+h1 {
+	color: #FAFAFA;
+}
+
+img {
+	width: 250px;
+	cursor: pointer;
+}
+
+.actions-contract {
+	width: 260px;
+	position: absolute;
+	top: 30%;
+	left: 3%;
+	text-align: center;
+}
+
+.actions-operations {
+	width: 260px;
+	position: absolute;
+	top: 30%;
+	left: 28%;
+	text-align: center;
+}
+
+.actions-inventory {
+	width: 260px;
+	position: absolute;
+	top: 30%;
+	left: 53%;
+	text-align: center;
+}
+
+.actions-client {
+	width: 260px;
+	position: absolute;
+	top: 30%;
+	left: 78%;
+	text-align: center;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html style="background-color: #282828">
+<head>
+	<title>Estoque</title>
+</head>
+<body>
+	<h1 style="color: #FAFAFA">Estoque</h1>
+
+	<div class="new-item-box">
+		<h3 class="name-title">Nome</h3>
+		<input class="item-name-input js-item-name-input" type="text" name="name">
+
+		<h3 class="description-title">Descrição</h3>
+		<textarea class="item-description-input  js-item-description-input" type="text" name="Descrição"></textarea>
+		
+		<h3 class="total-quantity-title">Qtd. Total</h3>
+		<input class="total-quantity-input js-total-quantity-input" type="number" name="Quantidade Total">
+
+		<h3 class="inventory-quantity-title">Qtd. Em Estoque</h3>
+		<input class="inventory-quantity-input js-inventory-quantity-input" type="number" name="Quantidade em estoque">
+
+		<button class="add-item js-add-item">
+			<span>Adicionar Item</span>
+		</button>
+	</div>
+
+	<div class="table-box-container"></div>
+</body>
+</html>
+
+<link rel="stylesheet" type="text/css" href="css/inventory.css">
+<script type="text/javascript" src="../scripts/inventory.js"></script>
+
+
+<template id="table-box">
+	<div class="table-box">
+		<table>
+			<tr>
+				<th>Nome</th>
+				<th>Descrição</th>
+				<th>Quantidade Total</th>
+				<th>Quantidade em estoque</th>
+			</tr>
+			<!--{{#items}}-->
+			<tr>
+				<td>{{itemName}}</td>
+				<td>{{itemDescription}}</td>
+				<td>{{itemTotalQuantity}}</td>
+				<td>{{itemavailableQuantity}}</td>
+			</tr>
+			<!--{{/items}}-->
+		</table>
+	</div>
+</template>

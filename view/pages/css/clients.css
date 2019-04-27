@@ -1,0 +1,138 @@
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	background-color: #FAFAFA;
+	border-radius: 6px;
+}
+
+td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	border-radius: 6px;
+	padding: 10px;
+	width: 100%;
+
+}
+
+.edit-client-box {
+	position: absolute;
+	top: 15%;
+	border-radius: 15px;
+	height: 590px;
+	width: 450px;
+	background-color: #C0C0C0;
+}
+
+.name-title {
+	position: absolute;
+	left: 5%;
+}
+
+.item-name-input {
+	width: 350px;
+	margin-top: 9%;
+	margin-left: 4.5%
+}
+
+.description-title {
+	position: absolute;
+	top: 15%;
+	left: 5%;
+}
+
+.item-description-input {
+	width: 350px;
+	height: 50px;
+	margin-top: 10%;
+	margin-left: 4.5%;
+}
+
+.total-quantity-title {
+	position: absolute;
+	top: 50%;
+	left: 8%;
+}
+
+.total-quantity-input {
+	position: absolute;
+	width: 50px;
+	top: 60%;
+	left: 11%;
+}
+
+.inventory-quantity-title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+.inventory-quantity-input {
+	position: absolute;
+	width: 50px;
+	top: 60%;
+	left: 59%;
+}
+
+.save-client {
+	background-color: #2ADF2A;
+	position: absolute;
+	top: 92%;
+	left: 79%;
+	border-radius: 6px;
+	border: 1px solid #B1FAC2;
+	height: 35px;
+	width: 70px;
+	cursor: pointer;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+.delete-client {
+	background-color: #ED171A	;
+	position: absolute;
+	top: 92%;
+	left: 56.5%;
+	border-radius: 6px;
+	border: 1px solid #B1FAC2;
+	height: 34px;
+	width: 80px;
+	cursor: pointer;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+.clients-box {
+	width: 50%;
+	height: 81%;
+	background-color: #EFECEC;
+	position: absolute;
+	left: 40%;
+	top: 14%;
+	border-radius: 12px;
+}
+
+.client-info {
+	width: 100%;
+	height: 35px;
+	cursor: pointer;
+	border-radius: 2px;
+}
+
+.client-info:hover {
+	background-color: #CBC6C6;
+}
+
+.client-name {
+	font-size: 18px;
+	padding-left: 40px;
+	position: relative;
+	top: 7px;
+	cursor: pointer;
+}
+
+.separator {
+	width: 100%;
+	height: 1.4px;
+	background-color: #CBC6C6;
+}
