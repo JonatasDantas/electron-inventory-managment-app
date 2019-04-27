@@ -8,8 +8,8 @@ Simple Inventory Managment Desktop App. Built with Node.js and Electron, that pr
 - Creating rental contracts
 
 
-``Installing project:``
-``- git clone git@github.com:JonatasDantas/electron-inventory-managment-app.git``
-``- npm install``
-``- npm start ``
+Installing project:
+  - Clone Project``git clone git@github.com:JonatasDantas/electron-inventory-managment-app.git``
+  - Install dependencies ``npm install``
+  - Start application``- npm start ``
   
