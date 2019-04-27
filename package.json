@@ -16,9 +16,5 @@
     "express": "^4.16.4",
     "jquery": "^3.3.1",
     "mustache": "^3.0.1"
-  },
-  "devDependencies": {
-    "electron-builder": "^20.38.5",
-    "electron-rebuild": "^1.8.4"
   }
 }
